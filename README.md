@@ -1,5 +1,5 @@
 # Learn_BrModelo
-Avaliação de diagramas de modelo logico e conceitual
+Avaliação de diagramas de modelo logico e conceitual em Sql
 
 ### Integrantes
 - Lucas de Arimateia

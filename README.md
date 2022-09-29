@@ -53,6 +53,24 @@ A função da tabela turma é referenciar as disciplinas e professores que foram
 - COD_TURMA:chave primária da tabela 
 - COD_PROF: chave estrangeira da tabela 
 - COD_DISC: chave estrangeira da tabela 
-- horario: horário em que cada turma irá ter 
+- horario: horário em que cada turma irá ter
+- fk_turma_COD_TURMA: chave estrangeira 
 
+### Tabela professores
+
+A função da tabela professores é armazenar os professores contidos na escola. Nela possuímos os seguintes atributos/colunas:
+
+- COD_PROF: chave primária do professor 
+- nome: nome do professor
+- endereço: endereço do professor 
+- cidade: informações sobre o município do professor
+
+### Tabela disciplina
+
+A função da tabela disciplina é armazenar as disciplinas que o aluno irá possuir. Nela possuímos os seguintes atribuitos/colunas:
+
+- COD_DISC: chave primária da tabela 
+- nome_DISC: nome das disciplinas exercidas 
+- Carga_Hor: carga horária de cada diciplina 
+- fk_Diciplina_COD_DISC: chave estrangeira 
 

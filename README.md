@@ -33,6 +33,8 @@ Tabela referida ao historico de cada aluno
 
 - MAT: chave estrangeira
 - COD_TURMA:chave estrangeira
+- COD_DISC: chave estrangeira 
+- COD_PROF: chave estrangeira
 
 
 

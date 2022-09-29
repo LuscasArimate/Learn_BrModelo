@@ -39,7 +39,20 @@ Tabela referida ao historico de cada aluno
 - Frequencia: chave estrangeira 
 - Nota: chave estrangeira
 
+### Tabela prof_turma
 
+A função da tabela prof_turma é ligar professor e turma. Nela temos os seguintes atributos/colunas:
 
+- fk_professores_COD_PROF: chave estrangeira referente a tabela professor ( COD_PROF ) 
+- fk_turma_COD_TURMA: chave estrangeira referente a tabela ( COD_ TURMA )
+
+### Tabela turma 
+
+A função da tabela turma é referenciar as disciplinas e professores que foram atribuidas a mesma. Nela possuímos os seguintes atribuitos/coluna:
+
+- COD_TURMA:chave primária da tabela 
+- COD_PROF: chave estrangeira da tabela 
+- COD_DISC: chave estrangeira da tabela 
+- horario: horário em que cada turma irá ter 
 
 

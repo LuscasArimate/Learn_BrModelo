@@ -39,14 +39,14 @@ Tabela referida ao historico de cada aluno
 - Frequencia: chave estrangeira 
 - Nota: chave estrangeira
 
-### Tabela prof_turma
+## Tabela prof_turma
 
 A função da tabela prof_turma é ligar professor e turma. Nela temos os seguintes atributos/colunas:
 
 - fk_professores_COD_PROF: chave estrangeira referente a tabela professor ( COD_PROF ) 
 - fk_turma_COD_TURMA: chave estrangeira referente a tabela ( COD_ TURMA )
 
-### Tabela turma 
+## Tabela turma 
 
 A função da tabela turma é referenciar as disciplinas e professores que foram atribuidas a mesma. Nela possuímos os seguintes atribuitos/coluna:
 
@@ -56,7 +56,7 @@ A função da tabela turma é referenciar as disciplinas e professores que foram
 - horario: horário em que cada turma irá ter
 - fk_turma_COD_TURMA: chave estrangeira 
 
-### Tabela professores
+## Tabela professores
 
 A função da tabela professores é armazenar os professores contidos na escola. Nela possuímos os seguintes atributos/colunas:
 
@@ -65,7 +65,7 @@ A função da tabela professores é armazenar os professores contidos na escola.
 - endereço: endereço do professor 
 - cidade: informações sobre o município do professor
 
-### Tabela disciplina
+## Tabela disciplina
 
 A função da tabela disciplina é armazenar as disciplinas que o aluno irá possuir. Nela possuímos os seguintes atribuitos/colunas:
 
@@ -73,4 +73,20 @@ A função da tabela disciplina é armazenar as disciplinas que o aluno irá pos
 - nome_DISC: nome das disciplinas exercidas 
 - Carga_Hor: carga horária de cada diciplina 
 - fk_Diciplina_COD_DISC: chave estrangeira 
+
+## Tabela Aluno_Historico
+
+A função da tabela aluno histórico é armazenar todos os dados já contidos antes do aluno em um só tabela. Nela possuímos os seguintes atributos/colunas:
+
+- MAT: chave primária da tabela
+- nome: nome do aluno 
+- endereco: localidade do aluno
+- cidade: município atual do aluno
+- COD_DISC: chave estrangeira referente as disciplinas exercidas pelo aluno
+- COD_TURMA: chave estrangeira referente ao código da turma
+- ANO: chave estrangeira referente ao ano de curso letivo do aluno
+- frequência: frequência do aluno
+- nota: boletim do aluno
+
+
 

@@ -19,13 +19,21 @@ Avaliação de diagramas de modelo logico e conceitual
 ### DESCRIÇÃO DAS TABELAS DO MODELO LÓGICO
 
 ## Tabela alunos
-### TABELA
+
 Tabela alunos se refere aos dados dos alunos cadastrados na escola. Nela possuímos os atributos/colunas
 
 - MAT: matrícula do aluno/chave primaria da tabela 
 - nome: nome do aluno cadastrado
+- endereço: mostra a rua onde o aluno se encontra
 - cidade: informações sobre a localidade do aluno
-- 
+
+## Tabela historico 
+
+Tabela referida ao historico de cada aluno 
+
+- MAT: chave estrangeira
+- COD_TURMA:chave estrangeira
+
 
 
 
